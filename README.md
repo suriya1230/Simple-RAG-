@@ -1,4 +1,4 @@
-# ⚡ DocMind — RAG with Groq + Llama 3 / Mixtral
+# ⚡ NovaDocs — RAG with Groq + Llama 3 / Mixtral
 
 Ultra-fast Retrieval-Augmented Generation using **Groq's free API** and open-source LLMs.
 
