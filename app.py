@@ -3,14 +3,7 @@ import re, os
 from groq import Groq
 
 
-from dotenv import load_dotenv
-load_dotenv()
-
-
-# ══════════════════════════════════════
-# BACKEND — API KEY (never shown in UI)
-# ══════════════════════════════════════
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 MODELS = {
     "Llama 3.3 · 70B  —  Best Quality":   "llama-3.3-70b-versatile",
